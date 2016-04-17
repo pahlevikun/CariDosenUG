@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_bantuan"
+        android:title="@string/action_bantuan"
+        android:icon="@drawable/ic_bantuan"
+        android:orderInCategory="1"
+        app:showAsAction="always"/>
+
+</menu>

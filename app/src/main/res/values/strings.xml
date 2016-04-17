@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Cari Dosen UG</string>
+    <string name="app_name_list">Nama Dosen</string>
+    <string name="app_name_profil">Informasi Dosen</string>
+    <string name="app_name_informasi">Informasi Aplikasi</string>
+    <string name="app_name_tambah">Tambah Data Dosen</string>
+    <string name="app_name_bantuan">Bantuan</string>
+    <string name="app_name_taplikasi">Tentang Aplikasi</string>
+    <string name="app_name_hakcipta">Hak Cipta</string>
+    <string name="app_name_tkami">Tentang Kami</string>
+    <string name="app_tentangapp">Tentang Aplikasi</string>
+    <string name="app_informasi">Informasi</string>
+    <string name="app_tentangkami">Tentang Kami</string>
+    <string name="app_bantuan">Bantuan</string>
+    <string name="app_kritiksaran">Kritik dan Saran</string>
+    <string name="app_hakcipta">Informasi Hak Cipta</string>
+    <string name="action_search">Pencarian</string>
+    <string name="action_bantuan">Bantuan</string>
+    <string name="action_setting">Pengaturan</string>
+    <string name="action_bagikan">Bagikan</string>
+    <string name="tombol_dosen">Cari Dosen</string>
+    <string name="tombol_bagikan">Bagikan</string>
+    <string name="tombol_informasi">Informasi</string>
+    <string name="tombol_tambah">Tambah Data Dosen</string>
+    <string name="informasi_bantuan">Aplikasi ini adalah Aplikasi yang dapat digunakan untuk mencari Data dan Informasi
+    Dosen-dosen yang ada di Universitas Gunadarma. Untuk menggunakannya cukup mudah, silahkan masuk ke menu Cari Dosen
+    lalu cari Dosen yang ingin Anda cari, atau jika data tidak tersedia pengguna bisa melakukan input data melalui
+    menu Tambah Data Dosen.</string>
+    <string name="informasi_logo">Beberapa logo yang digunakan sebagai berikut :</string>
+    <string name="informasi_copy">Untuk mengambil Informasi, pengguna dapat membagikan melalui Tombol Berbagi yang ada di
+    pojok kanan bawah lalu pilih dengan aplikasi apa informasi Dosen tersebut ingin dibagikan,
+    atau dapat menyalin data Dosen dengan cara menekan logo atau teks data Dosen tersebut untuk menyalin teks.</string>
+    <string name="informasi_caridosen">Aplikasi ini adalah Aplikasi yang dapat digunakan untuk mencari Data dan Informasi
+    Dosen-dosen yang ada di Universitas Gunadarma. Tujuan Aplikasi ini dibuat adalah untuk membantu Mahasiswa
+    Universitas Gunadarma yang kesulitan menghubungi Dosen baik itu untuk mengulang mata kuliah atau sebagai dosen pembimbing,
+    dengan Aplikasi ini, Mahasiswa akan mengetahui informasi seputar Dosen yang dicari.</string>
+    <string name="informasi_pembuat">Assalamualaikum, hai semuanya saya Farhan Yuda Pahlevi, panggil aja Kun. Sekarang masih kuliah
+    di Universitas Gunadarma, tingkat 3^^
+    Saya disini sebagai pembuat aplikasi ini, semuanya saya kerjain sendiri loh, termasuk web API-nya :3
+    \nPengalaman saya... Founder FYP-Kun Online! keren kan? ya tapi sekarang udah gak aktif disana, terus sekarang juga saya anggota &lt;CTProject/>
+    walaupun cuma anggota biasa.
+    \n\nBuat apa bikin aplikasi Ini?
+    \nIya, aplikasi ini awalnya kepikiran gara-gara Penulisan Ilmiah, kepikiran lah ide bikin aplikasi ini, Android dengan menggunakan metode JSON yang tersambung ke databas online.
+    \n\nTerus, bikin aplikasi ini buat mengisi waktu kosong sekaligus memperbaiki diri, iya memperbaiki diri supaya nantinya lebih siap kalo udah lulus^^
+    \nSemoga aplikasi ini membantu, mohon maaf jika ada kekurangan, kelebihan hanya milik Sang Maha Pencipta. Terima kasih,
+    \nWassalamualaikum wr wb.</string>
+    <string name="hakcipta_aplikasi">Aplikasi ini adalah Aplikasi yang berjalan pada sistem operasi Android dengan Android minimum
+    JellyBean. Aplikasi ini murni dibuat dengan ide kreatif pembuat, aplikasi ini ditujukan sebagai bahan untuk Penulisan Ilmiah
+    di Universitas Gunadarma, tetapi tidak menutup kemungkinan untuk dikembangkan lebih lanjut.</string>
+    <string name="hakcipta_data">Data yang digunakan pada Aplikasi Cari Dosen UG ini adalah data yang ada pada staffsite Universitas
+    Gunadarma sehingga data tersebut milik Universitas Gunadarma. Data tersebut diolah secara pribadi menjadi sebuah file excel
+    berdasarkan penelusuran pembuat secara satu per satu lalu dibuatlah Web API yang digunakan pada Aplikasi ini. Web API tersebut
+    tidak terikat oleh Universitas Gunadarma karena tidak disediakan oleh pihak Universitas Gunadarma.</string>
+    <string name="hakcipta_logo">Logo dan Gambar yang digunakan pada Aplikasi ini terdapat beberapa jenis.
+    Logo Universitas Gunadarma menjadi Hak Milik Universitas Gunadarma. Logo Aplikasi Cari Dosen UG menjadi Hak Milik
+    pembuat karena murni hasil karya-nya. Logo lain yang digunakan pada Aplikasi ini merupakan Hak Milik pembuatnya
+    yang secara gratis dibagikan dan boleh digunakan, sumber yang digunakan berasa dari : www.flaticon.com</string>
+</resources>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/coordinatorFAB"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="7dp">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:minHeight="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </android.support.v7.widget.Toolbar>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+                <com.github.siyamed.shapeimageview.CircularImageView
+                    android:id="@+id/ivDetailDosen"
+                    android:layout_margin="10dp"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_noimage"
+                    app:siBorderWidth="7dp"
+                    app:siBorderColor="@color/colorPrimaryDark"/>
+                <TextView android:id="@+id/tvNamaDetail"
+                    android:text="Nama Dosen"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorTextWhite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginBottom="20dp"/>
+            </LinearLayout>
+        </android.support.design.widget.AppBarLayout>
+
+        <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbarStyle="outsideOverlay"
+            android:id="@+id/lokasi_fab_scroll">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView android:id="@+id/tvInformasi"
+                    android:text="Informasi Dosen"
+                    android:textSize="13sp"
+                    android:textColor="@color/colorTextTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"/>
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/cvJabatan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:id="@+id/linearLayoutJabatan"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center_vertical"
+                            android:layout_margin="5dp">
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:id="@+id/ivJabatanDosen"
+                                android:src="@drawable/ic_jabatan"
+                                android:scaleType="fitCenter"
+                                android:layout_margin="10dp"/>
+                            <TextView android:id="@+id/tvJabatan"
+                                android:text="Jabatan Dosen"
+                                android:textSize="13sp"
+                                android:textColor="@color/colorTextInfo"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:id="@+id/linearLayoutMatkul"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center_vertical"
+                            android:layout_margin="5dp">
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:id="@+id/ivMatkulDosen"
+                                android:src="@drawable/ic_matkul"
+                                android:scaleType="fitCenter"
+                                android:layout_margin="10dp"/>
+                            <TextView android:id="@+id/tvMatkul"
+                                android:text="Mata Kuliah Dosen"
+                                android:textSize="13sp"
+                                android:textColor="@color/colorTextInfo"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <TextView android:id="@+id/tvKontak"
+                    android:text="Kontak Dosen"
+                    android:textSize="13sp"
+                    android:textColor="@color/colorTextTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"/>
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/cvSitus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:id="@+id/linearLayoutSitus"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center_vertical"
+                            android:layout_margin="5dp">
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:id="@+id/ivSitusDosen"
+                                android:src="@drawable/ic_situs"
+                                android:scaleType="fitCenter"
+                                android:layout_margin="10dp"/>
+                            <TextView android:id="@+id/tvSitus"
+                                android:text="Situs Dosen"
+                                android:textSize="13sp"
+                                android:textColor="@color/colorTextInfo"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:id="@+id/linearLayoutEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center_vertical"
+                            android:layout_margin="5dp">
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:id="@+id/ivEmailDosen"
+                                android:src="@drawable/ic_email"
+                                android:scaleType="fitCenter"
+                                android:layout_margin="10dp"/>
+                            <TextView android:id="@+id/tvEmail"
+                                android:text="Email Dosen"
+                                android:textSize="13sp"
+                                android:textColor="@color/colorTextInfo"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:id="@+id/linearLayoutAlamatKantor"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center_vertical"
+                            android:layout_margin="5dp">
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:id="@+id/ivAlamatKantor"
+                                android:src="@drawable/ic_kantor"
+                                android:scaleType="fitCenter"
+                                android:layout_margin="10dp"/>
+                            <TextView android:id="@+id/tvAlamat"
+                                android:text="Alamat Kantor Dosen"
+                                android:textSize="13sp"
+                                android:textColor="@color/colorTextInfo"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:id="@+id/linearLayoutTelepon"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center_vertical"
+                            android:layout_margin="5dp">
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:id="@+id/ivTeleponDosen"
+                                android:src="@drawable/ic_telepon"
+                                android:scaleType="fitCenter"
+                                android:layout_margin="10dp"/>
+                            <TextView android:id="@+id/tvTelepon"
+                                android:text="Telepon Dosen"
+                                android:textSize="13sp"
+                                android:textColor="@color/colorTextInfo"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_fab"/>
+
+</android.support.design.widget.CoordinatorLayout>
